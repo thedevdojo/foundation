@@ -15,13 +15,14 @@
     ],
     "require": {
         "php": "^8.2|^8.3|^8.4",
-        "laravel/framework": "^11.0|^12.0",
-        "devdojo/auth": "^2.2.0",
+        "laravel/framework": "^11.0|^12.0|^13.0",
+        "devdojo/auth": "*",
         "devdojo/billing": "*",
         "devdojo/blog": "*",
         "devdojo/changelog": "*",
         "devdojo/notifications": "*",
-        "devdojo/profiles": "*"
+        "devdojo/profiles": "*",
+        "devdojo/teams": "*"
     },
     "autoload": {
         "psr-4": {
