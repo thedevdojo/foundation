@@ -1,6 +1,6 @@
 {
     "name": "devdojo/foundation",
-    "description": "The DevDojo Foundation — auth, billing, blog, changelog, notifications and profiles, bundled.",
+    "description": "The DevDojo Foundation — auth, billing, blog, changelog, notifications and accounts, bundled.",
     "keywords": ["devdojo", "foundation", "laravel", "saas"],
     "homepage": "https://github.com/thedevdojo/foundation",
     "license": "MIT",
@@ -18,10 +18,11 @@
         "laravel/framework": "^11.0|^12.0|^13.0",
         "devdojo/auth": "*",
         "devdojo/billing": "*",
+        "devdojo/components": "*",
         "devdojo/blog": "*",
         "devdojo/changelog": "*",
         "devdojo/notifications": "*",
-        "devdojo/profiles": "*",
+        "devdojo/accounts": "*",
         "devdojo/teams": "*"
     },
     "autoload": {
