@@ -19,7 +19,6 @@
         "devdojo/auth": "*",
         "devdojo/accounts": "*",
         "devdojo/billing": "*",
-        "devdojo/components": "*",
         "devdojo/blog": "*",
         "devdojo/changelog": "*",
         "devdojo/notifications": "*",
