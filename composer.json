@@ -17,12 +17,12 @@
         "php": "^8.2|^8.3|^8.4",
         "laravel/framework": "^11.0|^12.0|^13.0",
         "devdojo/auth": "*",
+        "devdojo/accounts": "*",
         "devdojo/billing": "*",
         "devdojo/components": "*",
         "devdojo/blog": "*",
         "devdojo/changelog": "*",
         "devdojo/notifications": "*",
-        "devdojo/accounts": "*",
         "devdojo/teams": "*"
     },
     "autoload": {
