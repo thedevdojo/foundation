@@ -4,8 +4,10 @@ namespace Devdojo\Foundation;
 
 use Devdojo\Foundation\Commands\InstallCommand;
 use Devdojo\Foundation\Http\Middleware\ViewFoundationSetup;
+use Devdojo\Foundation\Livewire\Setup;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
+use Livewire\Livewire;
 
 class FoundationServiceProvider extends ServiceProvider
 {
@@ -32,6 +34,9 @@ class FoundationServiceProvider extends ServiceProvider
 
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'foundation');
         $this->loadRoutesFrom(__DIR__.'/../routes/foundation.php');
+
+        // The onboarding/setup wizard rendered by the host app's welcome view.
+        Livewire::component('foundation.setup', Setup::class);
 
         // The foundation_settings table is foundation infrastructure — always loaded
         // so the feature-flag store exists wherever the foundation is installed.
