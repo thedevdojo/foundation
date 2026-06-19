@@ -21,6 +21,7 @@
         "devdojo/billing": "*",
         "devdojo/blog": "*",
         "devdojo/changelog": "*",
+        "devdojo/components": "*",
         "devdojo/notifications": "*",
         "devdojo/teams": "*"
     },
