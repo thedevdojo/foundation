@@ -48,6 +48,10 @@ class FoundationServiceProvider extends ServiceProvider
             $this->publishes([
                 __DIR__.'/../config/foundation.php' => config_path('foundation.php'),
             ], 'foundation-config');
+
+            $this->publishes([
+                __DIR__.'/../resources/images' => public_path('vendor/foundation/images'),
+            ], 'foundation-assets');
         }
     }
 }

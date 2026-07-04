@@ -21,7 +21,7 @@ class Setup extends Component
      */
     public array $templates = [
         ['key' => 'blank', 'name' => 'Blank', 'description' => 'A clean foundation with everything you need to build from scratch.'],
-        ['key' => 'relay', 'name' => 'Relay', 'description' => 'The todo-list & project management app for teams that ship.'],
+        ['key' => 'rally', 'name' => 'Rally', 'description' => 'The todo-list & project management app for teams that ship.'],
         ['key' => 'deskly', 'name' => 'Deskly', 'description' => 'Customer support without the chaos. Inbox, tickets, and knowledge base.'],
         ['key' => 'formly', 'name' => 'Formly', 'description' => 'Forms that feel easy, results that matter. Create beautiful forms in minutes.'],
         ['key' => 'hunted', 'name' => 'Hunted', 'description' => 'Discover and launch products your audience will love.'],
